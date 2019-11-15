@@ -33,13 +33,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-dark navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><img src="images/logotext.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logotext.png" width="50%" height="50%" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#gallery">GALLERY</a> </li>
-                                <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
+                                <li class="nav-item"><a href="#Download" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3 nav-link">Download</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -54,7 +54,7 @@
             <h1>EasyFinance - App Landing Page</h1>
             <p class="tagline">The app that will save you more money than a piggy bank</p>
         </div>
-        <div class="img-holder mt-3"><img src="images/inicio.jpeg" alt="phone" class="img-fluid"></div>
+        <div class="img-holder mt-3"><img src="images/graficos.jpeg" alt="phone" class="img-fluid"></div>
     </header>
 
 
@@ -65,7 +65,7 @@
 
             <div class="section-title">
                 <small>HIGHLIGHTS</small>
-                <h3>Features you love</h3>
+                <h3 style="color: #18b272">Features you love</h3>
             </div>
 
 
@@ -121,16 +121,19 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-6">
-                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
-                    <h2>Discover our App</h2>
-                    <p class="mb-4">You will be able to see the progress of your short and long term goals through interactive graphics. </p>
-                    <a href="#" class="btn btn-primary">Read more</a>
+                <div class="col-md-2" style="margin-left: 25%">
+                    <img src="images/graficos.jpeg" width="120%" height="120%" alt="perspective phone" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+                        <h2>Discover our App</h2>
+                        <p class="mb-4">You will be able to see the progress of your short and long term goals through interactive graphics. </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
                 </div>
             </div>
-            <div class="perspective-phone">
-                <img src="images/graficos.jpeg" alt="perspective phone" class="img-fluid">
-            </div>
+            
         </div>
 
     </div>
@@ -138,22 +141,22 @@
 
 
     <div class="section">
-
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="images/logo.jpeg" alt="dual phone" class="img-fluid">
+            <div class="row" style="padding-bottom: 8%">
+                <div class="col-md-2" style="margin-left: 25%">
+                    <img src="images/logo.jpeg" style="width: 120%; height: 90%" alt="dual phone" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <div>
                         <div class="box-icon"><span class="ti-rocket gradient-fill ti-3x"></span></div>
                         <h2>Start progressing now</h2>
                         <p class="mb-4">You will notice the difference in your wallet from the first day of use. </p>
-                </div>
+                    </div>
             </div>
 
         </div>
 
+    </div>
     </div>
     <!-- // end .section -->
 
@@ -203,7 +206,7 @@
         <div class="container">
             <div class="section-title">
                 <small>TESTIMONIALS</small>
-                <h3>What our Customers Says</h3>
+                <h3 style ="color: #18b272">What our Customers Says</h3>
             </div>
 
             <div class="testimonials owl-carousel">
@@ -226,7 +229,7 @@
         <div class="container">
             <div class="section-title">
                 <small>GALLERY</small>
-                <h3>App Screenshots</h3>
+                <h3 style ="color: #18b272">App Screenshots</h3>
             </div>
 
             <div class="img-gallery owl-carousel owl-theme">
@@ -234,14 +237,12 @@
                 <img src="images/graficos.jpeg" alt="image">
 
             </div>
-
         </div>
-
     </div>
     <!-- // end .section -->
 
 
-    <div class="section bg-gradient">
+    <div class="section bg-gradient" id="Download">
         <div class="container">
             <div class="call-to-action">
 
@@ -249,9 +250,12 @@
                 <h2>Download Anywhere</h2>
                 <p class="tagline">Available for all major mobile and desktop platforms. Rapidiously visualize optimal ROI rather than enterprise-wide methods of empowerment. </p>
                 <div class="my-4">
-
-                    <a href="#" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a>
-                    <a href="#" class="btn btn-light"><img src="images/playicon.png" alt="icon"> Google play</a>
+                    <a href="https://play.google.com/store/apps?hl=es" class="thumbnail" style="margin-right: 5px; margin-left: 10px;">
+                        <img src="images/google-play-badge.png" width="160px" style="margin-top: 15px;">
+                      </a>
+                      <a href="https://www.apple.com/ios/app-store/" class="thumbnail">
+                        <img src="images/Download_on_the_App_Store_Badge_US-UK_blk_092917.png" width="130px" style="margin-top: 15px;">
+                      </a>
                 </div>
                 <p class="text-primary"><small><i>*Works on iOS 10.0.5+, Android Lollipop and above. </i></small></p>
             </div>
@@ -290,8 +294,7 @@
 
     </div>
     <!-- // end .section -->
-    <footer class="my-5 text-center">
-       
+    <footer class="my-5 text-center" style="margin-top: 5px; margin-bottom: 5px;"> 
         <small>
             <a href="#" class="m-2">PRESS</a>
             <a href="#" class="m-2">TERMS</a>
